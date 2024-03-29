@@ -4,7 +4,7 @@ dependencies: gcc or clang
 
 install:
 
-https://github.com/LeBigCronch/kisser && cd kisser
+git clone https://github.com/LeBigCronch/kisser && cd kisser
 
 gcc kisser.c -o kisser
 
